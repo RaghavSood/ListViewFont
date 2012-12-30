@@ -20,7 +20,7 @@ public class MainActivity extends Activity {
 
 		ListView listView = (ListView) findViewById(R.id.listView1);
 		String[] values = new String[] { "Android", "iPhone", "WindowsMobile", "Blackberry", "WebOS", "Ubuntu",
-				"Windows7", "Max OS X", "Linux", "OS/2" };
+				"Windows7", "Mac OS X", "Linux", "OS/2" };
 
 		ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.item, R.id.fontView, values);
 
